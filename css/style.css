@@ -1,8 +1,7 @@
 /*=================
    Google Fonts
  ==================*/
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
  /*=================
       Global Css
  ==================*/
@@ -150,3 +149,211 @@ span{
 /*==============================
    Donation-Plan section start
 ================================*/
+.donation-plan{
+  padding: 50PX 0 130px;
+}
+.donation-plan-details{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.donation-plan-details h2{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px; 
+}
+.donation-plan-details P{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.planning-donation{
+   display: flex;
+   justify-content: space-between;
+   gap: 24px;
+}
+.planning-donation .company-donator{
+   padding: 54px 23px;
+   border-radius: 5px;
+}
+.planning-donation .food{
+    background-color: rgba(79,157,166,0.1);
+}
+.planning-donation .shelter{
+    background-color: rgba(255,89,89,0.1);
+}
+.planning-donation .medicine{
+    background-color: rgba(255,244,214,0.9);
+}
+.planning-donation .company-donator img{
+    margin-bottom: 32px;
+}
+.planning-donation .company-donator h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+.planning-donation .company-donator p{
+    padding: 0;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin: 0;
+}
+
+/*=================================
+   Donation-People section start,
+   Donation-People2 section start
+===================================*/
+.donate-people,
+.donate-people2{
+    padding: 0 0 130px;
+}
+.donate-details,
+.donate-details2{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.donation-list,
+.donation-list2{
+    flex: 1 1 50%;
+}
+.donation-list h2,
+.donation-list2 h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.donation-list p,
+.donation-list2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #707070;
+}
+.donation-list .btn-dash,
+.donation-list2 .btn-dash2{
+    padding: 16px 0;
+    background-color: #FF5959;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 6px;
+    width: 240px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;   
+}
+
+.people-img,
+.people-img2{
+    flex: 1 1 50%;
+} 
+.people-img .simage,
+.people-img2 .simage2{
+   width: 100%;
+}
+
+/*==============================
+   Subcription section start
+================================*/
+.subcription{
+   padding: 0 0 130px;
+}
+.subcription-details{
+   max-width: 825px;
+   margin: 0 auto;
+}
+.subcription-details h2{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.subcription-details p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    padding: 0 85px;
+    margin-bottom: 50px;
+}
+
+.form-section{
+    width: 100%;
+    background-color: #FFF4D6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    border-radius: 6px;
+}
+.form-section form{
+    width: 432px;
+    position: relative;
+}
+form input[type="email"] {
+    width: 100%;
+    outline: none;
+    height: 48px;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 6px;
+    padding: 0 26px;
+}
+form .subcribe{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFF;
+    padding: 14px 36px;
+    background: #FF5959;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*========================
+   Footer section start
+==========================*/
+footer{
+   background-color: #0B0D17;
+   padding: 50px 0;
+}
+footer .container{
+   max-width: 1140px;
+   margin: 0 auto;  
+   text-align: center;
+}
+footer .container h2{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+footer .container p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
